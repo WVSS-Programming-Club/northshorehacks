@@ -21,7 +21,7 @@ const HackathonPage = () => {
                     </h1>
                     <Image src="/code.png" alt="Code" sizes="100%" width={0} height={0} className={style.code} />
                 </section>
-                <span>North Shore Hacks presents the North Shore's Leading Hackathon</span>
+                <span>North Shore Hacks presents the North Shore&apos;s Leading Hackathon</span>
                 <Image src="/expand.svg" alt="Expand" sizes="100%" width={0} height={0} className={style.down} />
             </div>
             <main className="container">
