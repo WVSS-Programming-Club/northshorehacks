@@ -1,6 +1,5 @@
 .splash {
     position: relative;
-    width: 100vw;
     height: 100vh;
     background-color: var(--accent);
     display: grid;
@@ -13,14 +12,15 @@
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        
+
         h1 {
             font-size: 5rem;
             font-weight: 900;
             text-transform: uppercase;
         }
 
-        span, a {
+        span,
+        a {
             font-size: 2rem;
         }
     }
@@ -31,6 +31,7 @@
         opacity: 0;
         filter: blur(10px) invert(1);
     }
+
     100% {
         opacity: 1;
         filter: blur(0) invert(1);
@@ -58,4 +59,17 @@
     justify-content: center;
     color: white;
     margin-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .splash {
+        width: 100vw;
+        .content {
+            padding: 0;
+
+            h1 {
+                font-size: 3rem;
+            }
+        }
+    }
 }
