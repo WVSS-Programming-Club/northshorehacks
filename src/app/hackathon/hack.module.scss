@@ -1,0 +1,59 @@
+.join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .reasons {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25%;
+        place-content: center;
+        gap: 1rem;
+        row-gap: 3rem;
+
+        section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            img {
+                width: 3rem;
+                height: 3rem;
+                filter: invert(15%) sepia(79%) saturate(4040%) hue-rotate(240deg) brightness(83%) contrast(96%);
+            }
+        }
+    }
+}
+
+.sponsors {
+    width: 100%;
+    height: auto;
+}
+
+.landing {
+    height: calc(100vh - 5rem);
+    margin: 5rem 15rem;
+    position: relative;
+
+    .splash {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        align-items: center;
+        gap: 1rem;
+
+        .code {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+    }
+
+    .down {
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        bottom: 3vh;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
