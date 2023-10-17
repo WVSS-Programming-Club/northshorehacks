@@ -9,8 +9,8 @@ This project is licensed under the AGPL-V3.0 license.
 ## Usage
 
 ```
-git clone https://github.com/CKAY-9/nshacks.git
-cd nshacks
+git clone https://github.com/WVSS-Programming-Club/northshorehacks.git
+cd northshorehacks
 npm i
 npm run dev ## or you can build it and run it like that
 ```
