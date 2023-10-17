@@ -35,7 +35,7 @@ const Home = () => {
                 }}>
                     <h1>Join our Discord!</h1>
                     <span>You will be able to find updates, resources, and just hang out.</span>
-                    <iframe src="https://discord.com/widget?id=1163706248521318420&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    <iframe src="https://discord.com/widget?id=1163706248521318420&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                 </section>
                 <section className={style.hackathon}>
                     <Link href="/hackathon"><h1>North Shore Hacks</h1></Link>
