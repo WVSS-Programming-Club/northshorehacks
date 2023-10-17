@@ -39,7 +39,7 @@ const Home = () => {
                 </section>
                 <section className={style.hackathon}>
                     <Link href="/hackathon"><h1>North Shore Hacks</h1></Link>
-                    <span>North Shore Hacks is our very own Hackathon. We focus on providing beginner-friendly experiences, while allowing for expierenced programmers to have fun!</span>
+                    <span>North Shore Hacks is our very own Hackathon. We focus on providing beginner-friendly experiences, while allowing for experienced programmers to have fun!</span>
                 </section>
             </main>
             <Footer></Footer>
