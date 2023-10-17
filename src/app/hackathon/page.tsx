@@ -3,6 +3,7 @@ import style from "./hack.module.scss";
 import Link from "next/link";
 import {Metadata} from "next";
 import Footer from "@/components/footer/footer";
+import Header from "@/components/header/header";
 
 export const generateMetadata = (): Metadata => {
     return {
@@ -14,6 +15,7 @@ export const generateMetadata = (): Metadata => {
 const HackathonPage = () => {
     return (
         <>
+            <Header></Header>
             <div className={style.landing}>
                 <section className={style.splash}>
                     <h1 style={{"fontSize": "5rem"}}>
@@ -22,9 +24,11 @@ const HackathonPage = () => {
                     <Image src="/code.png" alt="Code" sizes="100%" width={0} height={0} className={style.code} />
                 </section>
                 <span>North Shore Hacks presents the North Shore&apos;s Leading Hackathon</span>
-                <Image src="/expand.svg" alt="Expand" sizes="100%" width={0} height={0} className={style.down} />
+                <Link href="#main">
+                    <Image src="/expand.svg" alt="Expand" sizes="100%" width={0} height={0} className={style.down} />
+                </Link>
             </div>
-            <main className="container">
+            <main className="container" id="main">
                 <div className={style.join}>
                     <h1>Why You Should Join Our <span style={{"color": "var(--primary)"}}>Hackathon</span></h1> 
                     <div className={style.reasons}>

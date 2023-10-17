@@ -16,6 +16,7 @@ const Footer = () => {
                 <strong>Navigation</strong>
                 <Link href="/">Home</Link>
                 <Link href="/hackathon">Hackathon</Link>
+                <Link href="/team">Our Team</Link>
             </section>
         </footer>
     );
