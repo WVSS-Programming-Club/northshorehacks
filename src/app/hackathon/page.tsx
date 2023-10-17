@@ -18,7 +18,7 @@ const HackathonPage = () => {
             <Header></Header>
             <div className={style.landing}>
                 <section className={style.splash}>
-                    <h1 style={{"fontSize": "5rem"}}>
+                    <h1 className={style.tag}>
                         <span style={{"color": "var(--primary)"}}>Empower</span> the Future, One Line of <span style={{"color": "var(--accent)"}}>Code</span> at a Time
                     </h1>
                     <Image src="/code.png" alt="Code" sizes="100%" width={0} height={0} className={style.code} />

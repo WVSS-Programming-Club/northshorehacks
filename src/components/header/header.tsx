@@ -15,7 +15,7 @@ const Header = () => {
                     <span>WVSS Programming Club</span>
                 </Link>
             </section>
-            <section>
+            <section id={style.nav}>
                 <Link href="/">Home</Link>
                 <Link href="/team">Team</Link>
                 <Link href="/hackathon">NSH</Link>
