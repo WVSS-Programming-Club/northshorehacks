@@ -78,6 +78,7 @@
     }
 
     .down {
+        opacity: 0;
         width: 3rem;
         height: 3rem;
         animation: downFadeIn 1.5s 0.5s ease forwards;

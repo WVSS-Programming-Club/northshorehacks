@@ -1,0 +1,21 @@
+.department {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .members {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        .member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 5rem;
+            max-width: 300px;
+        }
+    }
+}
