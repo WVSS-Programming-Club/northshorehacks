@@ -24,11 +24,11 @@ const TeamPage = () => {
                     <div className={style.members}>
                         <div className={style.member}>
                             <h3>Andy Ze Yu Guo</h3>
-                            <span>Awaitng bio.</span>
+                            <span>Awaiting bio.</span>
                         </div>
                         <div className={style.member}>
                             <h3>Parham Khoshsiar</h3>
-                            <span>Awaitng bio.</span>
+                            <span>Awaiting bio.</span>
                         </div>
                     </div>
                 </section>
@@ -53,11 +53,11 @@ const TeamPage = () => {
                     <div className={style.members}>
                         <div className={style.member}>
                             <h3>Danny Watts</h3>
-                            <span>Awaitng bio.</span>
+                            <span>Awaiting bio.</span>
                         </div>
                         <div className={style.member}>
                             <h3>Pran Tito</h3>
-                            <span>Awaitng bio.</span>
+                            <span>Awaiting bio.</span>
                         </div>
                     </div>
                 </section>
