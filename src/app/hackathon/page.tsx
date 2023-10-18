@@ -29,6 +29,16 @@ const HackathonPage = () => {
                 </Link>
             </div>
             <main className="container" id="main">
+                <Link href="https://north-shore-hacks.devpost.com/" style={{
+                    "width": "100%",
+                    "display": "flex",
+                    "justifyContent": "center"
+                }}>
+                    <Image src="/devpost.png" alt="DevPost" sizes="100%" width={0} height={0} style={{
+                        "width": "250px",
+                        "height": "auto"
+                    }} />
+                </Link>
                 <div className={style.join}>
                     <h1>Why You Should Join Our <span style={{"color": "var(--primary)"}}>Hackathon</span></h1> 
                     <div className={style.reasons}>

@@ -35,23 +35,27 @@ const Home = () => {
                         us in our initiative.
                     </p>
                 </section>
-                <section className={style.hackathon}>
-                    <Link href="/hackathon"><h1>North Shore Hacks</h1></Link>
+                <Link href="/hackathon" className={style.hackathon}>
+                    <h1>North Shore Hacks</h1>
                     <span>North Shore Hacks is our very own Hackathon. We focus on providing beginner-friendly experiences, while allowing for experienced programmers to have fun!</span>
+                </Link>
+                <section className={style.resources}>
+                    <div className={style.resource}>
+                        <h1>Join our Discord!</h1>
+                        <span>You will be able to find updates, resources, and just hang out.</span>
+                        <iframe style={{"border": "none"}} src="https://discord.com/widget?id=1163706248521318420&theme=dark" width="250" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
+                    <div className={style.resource}>
+                        <h1>Join our DevPost Hackathon!</h1> 
+                        <span>Compete against other students to make the best project possible.</span>
+                        <Link href="https://north-shore-hacks.devpost.com/">
+                            <Image src="/devpost.png" alt="DevPost" sizes="100%" width={0} height={0} style={{
+                                "width": "250px",
+                                "height": "auto"
+                            }} />
+                        </Link>
+                    </div>
                 </section>
-                <section style={{
-                    "display": "flex",
-                    "gap": "1rem",
-                    "flexDirection": "column",
-                    "alignItems": "center",
-                    "justifyContent": "center",
-                    "marginTop": "3rem"
-                }}>
-                    <h1>Join our Discord!</h1>
-                    <span>You will be able to find updates, resources, and just hang out.</span>
-                    <iframe style={{"border": "none"}} src="https://discord.com/widget?id=1163706248521318420&theme=dark" width="350" height="500" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-                </section>
-
             </main>
             <Footer></Footer>
         </>

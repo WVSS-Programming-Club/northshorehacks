@@ -18,6 +18,15 @@ const Footer = () => {
                 <Link href="/hackathon">Hackathon</Link>
                 <Link href="/team">Our Team</Link>
             </section>
+            <section>
+                <strong>DevPost Hackathon</strong>
+                <Link href="https://north-shore-hacks.devpost.com/">
+                    <Image src="/devpost.png" alt="DevPost" sizes="100%" width={0} height={0} style={{
+                        "width": "250px",
+                        "height": "auto"
+                    }} />
+                </Link>
+            </section>
         </footer>
     );
 }
