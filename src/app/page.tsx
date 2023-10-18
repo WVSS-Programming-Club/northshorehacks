@@ -35,7 +35,7 @@ const Home = () => {
                     </p>
                 </section>
                 <section className={style.join}>
-                    <h2>What are you waiting for? Join the club!</h2>
+                    <h2 style={{"textAlign": "center"}}>What are you waiting for? Join the club!</h2>
                     <div className={style.resources}>
                         <div className={style.resource}>
                             <h2>Join our Discord</h2>
