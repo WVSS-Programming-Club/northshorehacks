@@ -21,7 +21,7 @@ const HackathonPage = () => {
                     <h1 className={style.tag}>
                         <span style={{"color": "var(--primary)"}}>Empower</span> the Future, One Line of <span style={{"color": "var(--accent)"}}>Code</span> at a Time
                     </h1>
-                    <Image src="/code.png" alt="Code" sizes="100%" width={0} height={0} className={style.code} />
+                    <Image src="/code.svg" alt="Code" sizes="100%" width={0} height={0} className={style.code} />
                 </section>
                 <span>North Shore Hacks presents the North Shore&apos;s Leading Hackathon</span>
                 <Link href="#main">
@@ -67,7 +67,17 @@ const HackathonPage = () => {
                     "textTransform": "uppercase",
                     "fontWeight": "900"
                 }}>Proudly Sponsored by</h1>
-                <Image src="/sponsors.png" alt="Sponsors" sizes="100%" width={0} height={0} className={style.sponsors} />
+                <div className={style.sponsors}>
+                    <Link href="https://gen.xyz/" className={style.sponsor}>
+                        <Image src="/xyz.png" alt="XYZ" sizes="100%" width={0} height={0} />
+                    </Link>
+                    <Link href="https://www.axure.com" className={style.sponsor}>
+                        <Image src="/axure.svg" alt="Axure" sizes="100%" width={0} height={0} />
+                    </Link>
+                    <Link href="https://1password.com" className={style.sponsor}>
+                        <Image src="/1pass.png" alt="1Password" sizes="100%" width={0} height={0} />
+                    </Link>
+                </div>
             </main>
             <Footer></Footer>
         </>

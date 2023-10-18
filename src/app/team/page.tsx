@@ -1,5 +1,13 @@
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
+import {Metadata} from "next";
+
+export const generateMetadata = (): Metadata => {
+    return {
+        "title": "Our Team - WVSS Programming Club",
+        "description": "Learn about the team behind the WVSS Programming Club."
+    }
+}
 
 const TeamPage = () => {
     return (

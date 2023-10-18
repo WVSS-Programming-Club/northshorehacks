@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className={style.footer}>
             <section>
-                <h2>WVSS Programming Club</h2>
+                <Image src="/logo.png" alt="Logo" sizes="100%" width={0} height={0} className={style.logo} />
                 <div className={style.links}>
                     <Link href="https://www.instagram.com/wvssprogrammingclub/"><Image src="/Instagram_Glyph_White.svg" alt="Instagram" sizes="100%" width={0} height={0} className={style.link} /></Link>
                     <Link href="https://github.com/WVSS-Programming-Club/northshorehacks"><Image src="/github-mark-white.svg" alt="GitHub" sizes="100%" width={0} height={0} className={style.link} /></Link>

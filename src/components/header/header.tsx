@@ -12,7 +12,6 @@ const Header = () => {
                     "gap": "0.5rem"
                 }}>
                     <Image src="/logo.png" alt="Logo" sizes="100%" width={0} height={0} className={style.logo} />
-                    <span>WVSS Programming Club</span>
                 </Link>
             </section>
             <section id={style.nav}>

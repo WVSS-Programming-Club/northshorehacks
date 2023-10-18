@@ -26,8 +26,18 @@
 }
 
 .sponsors {
-    width: 100%;
-    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    place-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    .sponsor {
+        img {
+            width: 100px; 
+            height: auto;
+        }
+    }
 }
 
 @keyframes downFadeIn {
@@ -45,6 +55,10 @@
     height: calc(100vh - 5rem);
     margin: 5rem 15rem;
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
 
     .splash {
         display: grid;
@@ -64,12 +78,8 @@
     }
 
     .down {
-        position: absolute;
         width: 3rem;
         height: 3rem;
-        bottom: 10%;
-        left: 50%;
-        transform: translateX(-50%);
         animation: downFadeIn 1.5s 0.5s ease forwards;
     }
 }
@@ -97,10 +107,6 @@
                 height: auto;
                 border-radius: 15px;
             }
-        }
-
-        .down {
-            bottom: 20%;
         }
     }
 
