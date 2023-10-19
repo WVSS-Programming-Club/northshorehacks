@@ -8,8 +8,11 @@
 
     section {
         display: flex;
-        gap: 1rem;
         align-items: center;
+
+        a {
+            padding: 0 1rem;
+        }
     }
 
     .logo {
@@ -26,9 +29,12 @@
         padding: 1rem 0rem;
 
         #nav {
+            width: 100%;
             display: grid;
+            gap: 0;
             grid-template-columns: 33% 33% 33%;
             text-align: center;
+            place-content: center;
             
             a {
                 padding: 1rem 0;

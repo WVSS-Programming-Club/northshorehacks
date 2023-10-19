@@ -28,8 +28,7 @@ const TeamPage = () => {
                         </div>
                         <div className={style.member}>
                             <h3>Parham Khoshsiar</h3>
-                            <span>I am Parham Khoshsiar, born in Tehran, Iran in 2006. When I was just 7 years old, my family embarked on a life-changing journey, relocating to the nation of Canada. Today, I am deeply passionate about both sports and academics, and trying to make my family proud.
-My interest in coding was ignited during my 8th-grade year, where I was introduced to the fundamentals of Python and made a small, but impactful, coding project. Over the years, I have been on a steady path of growth and refinement in my programming skills. Although I am by no means an expert in the field, I am steadily progressing and working toward my ultimate goal of securing a career in software development.</span>
+                            <span>I am Parham Khoshsiar, born in Tehran, Iran in 2006. When I was just 7 years old, my family embarked on a life-changing journey, relocating to the nation of Canada. Today, I am deeply passionate about both sports and academics, and trying to make my family proud. My interest in coding was ignited during my 8th-grade year, where I was introduced to the fundamentals of Python and made a small, but impactful, coding project. Over the years, I have been on a steady path of growth and refinement in my programming skills. Although I am by no means an expert in the field, I am steadily progressing and working toward my ultimate goal of securing a career in software development.</span>
                         </div>
                     </div>
                 </section>

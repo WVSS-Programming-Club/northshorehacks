@@ -5,8 +5,8 @@
     gap: 1rem;
 
     .members {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, calc(50% - 1rem)));
         justify-content: center;
         gap: 1rem;
         flex-wrap: wrap;
@@ -15,7 +15,15 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 300px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .department {
+        .members {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
