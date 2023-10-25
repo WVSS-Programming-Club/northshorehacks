@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: 999;
     background-color: var(--accent);
     padding: 1rem 5rem;
     display: flex;

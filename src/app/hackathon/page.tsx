@@ -19,7 +19,7 @@ const HackathonPage = () => {
             <div className={style.landing}>
                 <section className={style.splash}>
                     <h1 className={style.tag}>
-                        <span style={{"color": "var(--primary)"}}>Empower</span> the Future, One Line of <span style={{"color": "var(--accent)"}}>Code</span> at a Time
+                        <span id={style.empower}>Empower</span> the Future, One Line of <span id={style.code}>Code</span> at a Time
                     </h1>
                     <Image src="/code.svg" alt="Code" sizes="100%" width={0} height={0} className={style.code} />
                 </section>
@@ -40,7 +40,7 @@ const HackathonPage = () => {
                     }} />
                 </Link>
                 <div className={style.join}>
-                    <h1>Why You Should Join Our <span style={{"color": "var(--primary)"}}>Hackathon</span></h1> 
+                    <h1 style={{"textAlign": "center"}}>Why You Should Join Our <span style={{"color": "var(--primary)"}}>Hackathon</span></h1> 
                     <div className={style.reasons}>
                         <section>
                             <Image src="/school.svg" alt="School" sizes="100%" width={0} height={0} />

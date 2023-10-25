@@ -24,7 +24,7 @@ const TeamPage = () => {
                     <div className={style.members}>
                         <div className={style.member}>
                             <h3>Andy Ze Yu Guo</h3>
-                            <span>Awaiting bio.</span>
+                            <span>My name is Andy Guo. My family moved here from Canada when I was just 5 years old. Throughout my life, I have had a passion for technology and the vast possibilities that they facilitate. Using this club I will try to inspire and arm others for the current revolutionary era of technology - all while maintaining a diverse, collaborative and accepting environment. I hope my members enjoy their time at the programming club, and accomplish their goals.</span>
                         </div>
                         <div className={style.member}>
                             <h3>Parham Khoshsiar</h3>
